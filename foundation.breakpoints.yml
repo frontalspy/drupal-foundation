@@ -1,0 +1,54 @@
+foundation.small:
+  label: small
+  miediaQuery: ''
+  weight: 0
+  multipliers:
+    - 1x
+    - 1.5x
+    
+foundation.small-only:
+  label: small-only
+  mediaQuery: 'all and (max-width:40em)'
+  weight: 1
+  multipliers:
+    - 1x
+    - 1.5x
+
+foundation.medium-only:
+  label: medium-only
+  mediaQuery: 'all and (min-width:40em) and (max-width:64em)'
+  weight: 2
+  multipliers:
+    - 1x
+    - 1.5x
+
+foundation.medium-up:
+  label: mobile-up
+  mediaQuery: 'all and (min-width:40em)'
+  weight: 3
+  multipliers:
+    - 1x
+    - 1.5x
+    
+foundation.large-only:
+  label: large-only
+  mediaQuery: 'all and (min-width:64em) and (max-width:75em)'
+  weight: 4
+  multipliers:
+    - 1x
+    
+foundation.large-up:
+  label: large-up
+  mediaQuery: 'all and (min-width:64em)'
+  weight: 5
+  multipliers:
+    - 1x
+    - 2x
+
+foundation.xlarge-up:
+  label: xlarge-up
+  mediaQuery: 'all and (min-width:75em)'
+  weight: 6
+  multipliers:
+    - 1x
+    - 2x

@@ -1,0 +1,41 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/main.js"
+      ],
+      "main": true
+    },
+    "base.css": {
+      "files": [
+        "styles/base.scss"
+      ],
+      "main": true
+    },
+    "layout.css": {
+      "files": [
+        "styles/layout.scss"
+      ]
+    },
+    "component.css": {
+      "files": [
+        "styles/component.scss"
+      ]
+    },
+    "customizer.js": {
+      "files": [
+        "scripts/customizer.js"
+      ]
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    }
+  },
+  "paths": {
+    "source": "assets/",
+    "dist": ""
+  },
+  "config": {
+    "devUrl": "http://example.dev"
+  }
+}

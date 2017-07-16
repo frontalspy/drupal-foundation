@@ -1,0 +1,30 @@
+name: Foundation
+type: theme
+description: 'A barebones Drupal theme using Foundation 6.3'
+core: 8.x
+libraries: 
+  - foundation/global-styling
+  - foundation/global-scripting
+  - foundation/google-fonts
+  - foundation/javascript-header
+
+libraries-override:
+    core/modernizr: false
+  
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: Highlighted
+  featured_top: 'Featured top'
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  featured_bottom_first: 'Featured bottom first'
+  featured_bottom_second: 'Featured bottom second'
+  featured_bottom_third: 'Featured bottom third'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
